@@ -17,7 +17,7 @@ export default function Work() {
                 alt={project.title}
                 width={250}
                 height={124}
-                className="work__img"
+                className="work__img w-full"
               />
 
               <h3 className="work__title">{project.title}</h3>
