@@ -940,7 +940,14 @@ body.light-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
+  .home__social {
+    left: 0.5rem;
+  }
+  .home__scroll {
+    right: -0.5rem;
+  }
+
   .nav__menu {
     padding: 1rem 1.5rem;
   }
@@ -989,6 +996,13 @@ body.light-theme {
 }
 
 @media screen and (min-width: 435px) {
+  .home__social {
+    left: 0.5rem;
+  }
+  .home__scroll {
+    right: -0.5rem;
+  }
+
   .work__container {
     justify-content: center;
     grid-template-columns: repeat(2, max-content);
