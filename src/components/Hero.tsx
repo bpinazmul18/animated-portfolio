@@ -15,10 +15,10 @@ export default function Hero() {
             <div className="home__button">
               <Link
                 download=""
-                href="./pdf/hailee-Cv.pdf"
+                href="./pdf/Frontend_Developer_Resume_of_Nazmul.pdf"
                 className="button button--ghost"
               >
-                Download CV
+                Download Resume
               </Link>
 
               <Link href="#about" className="button">
