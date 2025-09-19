@@ -975,7 +975,7 @@ body.light-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .home__social {
     left: 0.5rem;
   }
