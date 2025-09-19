@@ -39,7 +39,11 @@ export default function Work() {
                 </div>
               )}
 
-              <Link href={project.demoUrl} className="work__button">
+              <Link
+                href={project.demoUrl}
+                className="work__button"
+                target="_blank"
+              >
                 Demo <i className="bx bx-right-arrow work__icon"></i>
               </Link>
             </div>
