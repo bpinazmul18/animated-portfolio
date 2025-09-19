@@ -22,6 +22,23 @@ export default function Work() {
 
               <h3 className="work__title">{project.title}</h3>
 
+              {project.credentials && (
+                <div className="work__credentials">
+                  <div className="credentials__item">
+                    <span className="credentials__label">Username: </span>
+                    <span className="credentials__value">
+                      {project.credentials.username}
+                    </span>
+                  </div>
+                  <div className="credentials__item">
+                    <span className="credentials__label">Password: </span>
+                    <span className="credentials__value">
+                      {project.credentials.password}
+                    </span>
+                  </div>
+                </div>
+              )}
+
               <Link href={project.demoUrl} className="work__button">
                 Demo <i className="bx bx-right-arrow work__icon"></i>
               </Link>

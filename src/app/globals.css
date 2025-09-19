@@ -730,6 +730,37 @@ body.light-theme {
   color: var(--body-color);
 }
 
+.work__credentials {
+  border-radius: 8px;
+  margin: 12px 0;
+  backdrop-filter: blur(10px);
+}
+
+.credentials__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credentials__item:last-child {
+  margin-bottom: 0;
+}
+
+.credentials__label {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.credentials__value {
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: "Courier New", monospace;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 /*=============== TESTIMONIAL ===============*/
 .testimonial__card {
   background-color: var(--container-color);
