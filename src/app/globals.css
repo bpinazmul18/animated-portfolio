@@ -765,6 +765,10 @@ body.light-theme {
 }
 
 /*=============== CONTACT ===============*/
+.contact {
+  padding-bottom: 6.4rem !important;
+}
+
 .contact__container {
   row-gap: 3rem;
   padding-bottom: 3rem;
