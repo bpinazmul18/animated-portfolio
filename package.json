@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@vercel/otel": "^1.13.0",
     "boxicons": "^2.1.4",
     "next": "15.5.3",
     "react": "19.1.0",
