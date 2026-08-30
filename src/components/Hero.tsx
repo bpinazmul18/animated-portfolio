@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="home__button">
               <Link
                 download=""
-                href="./pdf/Frontend_Developer_Resume_of_Nazmul.pdf"
+                href="./pdf/Software_Engineer_Frontend_Focus_resume_of_Nazmul_Haque.pdf"
                 className="button button--ghost"
               >
                 Download Resume
