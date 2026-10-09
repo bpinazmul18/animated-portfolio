@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     title: "Deepdive",
     image: "/img/work2.png",
-    category: "movil",
+    category: "mobile",
     demoUrl: "https://app.deepdiveplatform.com/",
     credentials: {
       username: "alec@dotlines.uk",
