@@ -9,7 +9,7 @@ export const aboutBoxes: AboutBox[] = [
   {
     icon: "bx bx-award",
     title: "Experience",
-    subtitle: "5 Years Working",
+    subtitle: "6 Years Working",
   },
   {
     icon: "bx bx-briefcase-alt",

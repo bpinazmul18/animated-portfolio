@@ -5,33 +5,30 @@ export interface Skill {
 
 export const frontendSkillsGroups: Skill[][] = [
   [
-    { name: "HTML", level: "Advanced" },
-    { name: "CSS/SCSS", level: "Advanced" },
-    { name: "Javascript", level: "Advanced" },
-    { name: "TypeScript", level: "Intermediate" },
+    { name: "React.js", level: "Advanced" },
+    { name: "Next.js", level: "Advanced" },
+    { name: "TypeScript", level: "Advanced" },
+    { name: "JavaScript (ES6+)", level: "Advanced" },
   ],
   [
-    { name: "TailwindCSS", level: "Advanced" },
-    { name: "Git", level: "Advanced" },
-    { name: "React", level: "Advanced" },
-    { name: "Next.js", level: "Advanced" },
+    { name: "Redux Toolkit / RTK Query", level: "Advanced" },
+    { name: "Tailwind CSS", level: "Advanced" },
+    { name: "Shadcn UI / Radix UI", level: "Advanced" },
+    { name: "React Native", level: "Intermediate" },
   ],
 ];
 
-export interface Skill {
-  name: string;
-  level: "Beginner" | "Intermediate" | "Advanced";
-}
-
 export const backendSkillsGroups: Skill[][] = [
   [
-    { name: "Node JS", level: "Advanced" },
-    { name: "Nest.js", level: "Intermediate" },
-    { name: "MySQL", level: "Intermediate" },
+    { name: "Node.js", level: "Advanced" },
+    { name: "Express.js", level: "Advanced" },
+    { name: "NestJS", level: "Intermediate" },
+    { name: "MongoDB", level: "Advanced" },
   ],
   [
-    { name: "Expressjs", level: "Intermediate" },
-    { name: "Firebase", level: "Intermediate" },
-    { name: "Mongo DB", level: "Intermediate" },
+    { name: "RESTful API Design", level: "Advanced" },
+    { name: "JWT / OAuth 2.0", level: "Advanced" },
+    { name: "Stripe Integration", level: "Advanced" },
+    { name: "Strapi CMS", level: "Intermediate" },
   ],
 ];

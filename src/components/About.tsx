@@ -30,11 +30,13 @@ export default function About() {
             </div>
 
             <p className="about__description">
-              Full Stack Developer with 5+ years of experience building modern
-              web applications. I specialize in creating intuitive, responsive,
-              and user-friendly interfaces while delivering robust backend
-              solutions. Passionate about clean code, performance, and helping
-              clients bring their ideas to life.
+              Senior Software Engineer with 6 years of experience designing,
+              developing, and maintaining production-grade web applications
+              using React.js, Next.js, TypeScript, and Node.js. Skilled in
+              building RESTful APIs, integrating third-party services like
+              Stripe and Strapi, and crafting scalable, high-performance
+              frontend architecture. Passionate about clean code and helping
+              teams deliver reliable, high-quality software.
             </p>
 
             <Link href="#contact" className="button about__button-contact">

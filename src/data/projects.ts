@@ -1,8 +1,8 @@
 export interface Project {
   title: string;
   image: string;
-  category: "web" | "movil" | "design";
-  demoUrl: string;
+  category: "web" | "mobile" | "design";
+  demoUrl?: string;
   credentials?: {
     username: string;
     password: string;
@@ -50,10 +50,26 @@ export const projects: Project[] = [
       password: "21451",
     },
   },
-  //   {
-  //     title: "App Movil",
-  //     image: "/img/work5.jpg",
-  //     category: "movil",
-  //     demoUrl: "#",
-  //   },
+  {
+    title: "Muallim Admin",
+    image: "/img/work-placeholder.svg",
+    category: "web",
+    demoUrl: "https://admin.muallimedu.com/",
+  },
+  {
+    title: "Muallim Teacher",
+    image: "/img/work-placeholder.svg",
+    category: "mobile",
+    demoUrl: "https://play.google.com/store/apps/details?id=com.muallimedu.teacher&pcampaignid=web_share"
+  },
+  {
+    title: "Stripe Payment Integration",
+    image: "/img/work-placeholder.svg",
+    category: "web",
+  },
+  {
+    title: "React.js & Strapi CMS",
+    image: "/img/work-placeholder.svg",
+    category: "web",
+  },
 ];

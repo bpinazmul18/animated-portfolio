@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nazmul's Portfolio",
-  description: "Portfolio site built with Next.js",
+  title: "Nazmul Haque | Senior Software Engineer",
+  description:
+    "Portfolio of Nazmul Haque, a Senior Software Engineer specializing in React.js, Next.js, TypeScript, and Node.js.",
   // themeColor: "#a789d4",
 };
 

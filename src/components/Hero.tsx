@@ -10,12 +10,12 @@ export default function Hero() {
           <div className="home__data">
             <span className="home__greeting">{"Hello, I'm"}</span>
             <h1 className="home__name">Nazmul Haque</h1>
-            <h3 className="home__education">Full Stack Developer</h3>
+            <h3 className="home__education">Senior Software Engineer</h3>
 
             <div className="home__button">
               <Link
                 download=""
-                href="./pdf/Software_Engineer_Frontend_Focus_resume_of_Nazmul_Haque.pdf"
+                href="./pdf/Nazmul_Haque_Senior_Software_Engineer_Resume.pdf"
                 className="button button--ghost"
               >
                 Download Resume
